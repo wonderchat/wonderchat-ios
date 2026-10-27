@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20181329E965939DABD297C9 /* Wonderchat in Frameworks */ = {isa = PBXBuildFile; productRef = D02A841A5C48DA4C93A4FEE3 /* Wonderchat */; };
+		6500C901DA1664906EB0D99A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9728E647BFF7E1991E37F /* RootView.swift */; };
+		AAC527702285B9CDBBC3D55B /* WonderchatExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1868137DFDA5823C1172 /* WonderchatExampleApp.swift */; };
+		B4C622F3E24505FAED9A0017 /* WonderchatExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E357F9471AF9EF65BCD9205 /* WonderchatExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3884F6CE2F0822E1D0C55D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0B2E7DB429451DA8960E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB1F75EA34DB583AAFBF82E;
+			remoteInfo = WonderchatExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D28D6B671129F5B4184D651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0E357F9471AF9EF65BCD9205 /* WonderchatExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderchatExampleUITests.swift; sourceTree = "<group>"; };
+		2CE9728E647BFF7E1991E37F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5AE54D15D6DAAC2246538CD5 /* WonderchatExampleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WonderchatExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FF4715039D8EEABA787E2B /* WonderchatExample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WonderchatExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8E876C7C2F41CBB9804536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EBCC21581689A844EFD119CD /* wonderchat-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "wonderchat-ios"; path = ..; sourceTree = SOURCE_ROOT; };
+		FEEE1868137DFDA5823C1172 /* WonderchatExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderchatExampleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABDD285F565C3C96757E888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20181329E965939DABD297C9 /* Wonderchat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE06A6AD0C2354755D4A2B9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EBCC21581689A844EFD119CD /* wonderchat-ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		607A8B2CA5E19A6880A15B02 /* WonderchatExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA8E876C7C2F41CBB9804536 /* Info.plist */,
+				0E357F9471AF9EF65BCD9205 /* WonderchatExampleUITests.swift */,
+			);
+			path = WonderchatExampleUITests;
+			sourceTree = "<group>";
+		};
+		6392C7A1EFE049FE119F1B7C = {
+			isa = PBXGroup;
+			children = (
+				0BE06A6AD0C2354755D4A2B9 /* Packages */,
+				82B243D9A98372E284DBE446 /* WonderchatExample */,
+				607A8B2CA5E19A6880A15B02 /* WonderchatExampleUITests */,
+				B247426F5EC9983EEFE5ED8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B243D9A98372E284DBE446 /* WonderchatExample */ = {
+			isa = PBXGroup;
+			children = (
+				0D28D6B671129F5B4184D651 /* Info.plist */,
+				2CE9728E647BFF7E1991E37F /* RootView.swift */,
+				FEEE1868137DFDA5823C1172 /* WonderchatExampleApp.swift */,
+			);
+			path = WonderchatExample;
+			sourceTree = "<group>";
+		};
+		B247426F5EC9983EEFE5ED8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FF4715039D8EEABA787E2B /* WonderchatExample.app */,
+				5AE54D15D6DAAC2246538CD5 /* WonderchatExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB1F75EA34DB583AAFBF82E /* WonderchatExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5790AF605BF8295B7884C1B4 /* Build configuration list for PBXNativeTarget "WonderchatExample" */;
+			buildPhases = (
+				5C0067782D617306A5F26C49 /* Sources */,
+				EABDD285F565C3C96757E888 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WonderchatExample;
+			packageProductDependencies = (
+				D02A841A5C48DA4C93A4FEE3 /* Wonderchat */,
+			);
+			productName = WonderchatExample;
+			productReference = 68FF4715039D8EEABA787E2B /* WonderchatExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F79ED8A4553F9360E620E8E9 /* WonderchatExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A5F9AD85FB2D4730D001BC /* Build configuration list for PBXNativeTarget "WonderchatExampleUITests" */;
+			buildPhases = (
+				7E1ECC6F3F21EFC2DD265FAD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C5E32F11638C9D74C96AB4 /* PBXTargetDependency */,
+			);
+			name = WonderchatExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = WonderchatExampleUITests;
+			productReference = 5AE54D15D6DAAC2246538CD5 /* WonderchatExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0B2E7DB429451DA8960E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2EB1F75EA34DB583AAFBF82E = {
+						ProvisioningStyle = Automatic;
+					};
+					F79ED8A4553F9360E620E8E9 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EB1F75EA34DB583AAFBF82E;
+					};
+				};
+			};
+			buildConfigurationList = 0B8E640C0D9464BC68603F88 /* Build configuration list for PBXProject "WonderchatExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6392C7A1EFE049FE119F1B7C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8F021976098782B61E9BDD77 /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B247426F5EC9983EEFE5ED8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB1F75EA34DB583AAFBF82E /* WonderchatExample */,
+				F79ED8A4553F9360E620E8E9 /* WonderchatExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0067782D617306A5F26C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6500C901DA1664906EB0D99A /* RootView.swift in Sources */,
+				AAC527702285B9CDBBC3D55B /* WonderchatExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1ECC6F3F21EFC2DD265FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C622F3E24505FAED9A0017 /* WonderchatExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C5E32F11638C9D74C96AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB1F75EA34DB583AAFBF82E /* WonderchatExample */;
+			targetProxy = 3884F6CE2F0822E1D0C55D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B781E57C5D90453CC53DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WonderchatExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderchat.example.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WonderchatExample;
+			};
+			name = Debug;
+		};
+		2CAE97A416B3D1BD8C2CF9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WonderchatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderchat.example;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3422EE4E4B83398552B56ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C5EF3E800F6771955E4671B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WonderchatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderchat.example;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC201ED5DF7819FE8405CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F2323A9C74E5624F6904E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WonderchatExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonderchat.example.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WonderchatExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8E640C0D9464BC68603F88 /* Build configuration list for PBXProject "WonderchatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3422EE4E4B83398552B56ED2 /* Debug */,
+				CBC201ED5DF7819FE8405CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5790AF605BF8295B7884C1B4 /* Build configuration list for PBXNativeTarget "WonderchatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EF3E800F6771955E4671B6 /* Debug */,
+				2CAE97A416B3D1BD8C2CF9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1A5F9AD85FB2D4730D001BC /* Build configuration list for PBXNativeTarget "WonderchatExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B781E57C5D90453CC53DA94 /* Debug */,
+				F2323A9C74E5624F6904E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8F021976098782B61E9BDD77 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D02A841A5C48DA4C93A4FEE3 /* Wonderchat */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Wonderchat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D0B2E7DB429451DA8960E30 /* Project object */;
+}

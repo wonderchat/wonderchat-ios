@@ -1,0 +1,63 @@
+# Generate with ../scripts/generate-example.sh (XcodeGen). The .xcodeproj is
+# not committed.
+name: WonderchatExample
+options:
+  bundleIdPrefix: com.wonderchat
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+packages:
+  Wonderchat:
+    path: ..
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "-"
+targets:
+  WonderchatExample:
+    type: application
+    platform: iOS
+    sources: [WonderchatExample]
+    dependencies:
+      - package: Wonderchat
+    info:
+      path: WonderchatExample/Info.plist
+      properties:
+        CFBundleDisplayName: Wonderchat Demo
+        UILaunchScreen: {}
+        UIApplicationSupportsIndirectInputEvents: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        # Lets the demo reach a local Wonderchat server. Not needed in production.
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        # Photo uploads in the chat can offer the camera.
+        NSCameraUsageDescription: Take a photo to send to support.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wonderchat.example
+  WonderchatExampleUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [WonderchatExampleUITests]
+    dependencies:
+      - target: WonderchatExample
+    info:
+      path: WonderchatExampleUITests/Info.plist
+      properties:
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wonderchat.example.uitests
+        TEST_TARGET_NAME: WonderchatExample
+schemes:
+  WonderchatExample:
+    build:
+      targets:
+        WonderchatExample: all
+        WonderchatExampleUITests: [test]
+    test:
+      targets:
+        - WonderchatExampleUITests
